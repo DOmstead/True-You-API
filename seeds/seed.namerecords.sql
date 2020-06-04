@@ -1,4 +1,4 @@
-INSERT INTO namerecord-test (name, gender, era, recent)
+INSERT INTO namerecord (name, gender, era, recent)
 VALUES
   ('John', 'M', 'Modern'),
   ('Rose', 'F', 'Modern' )

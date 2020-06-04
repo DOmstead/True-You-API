@@ -1,1 +1,1 @@
-TRUNCATE namerecord-test;
+TRUNCATE namerecord;
