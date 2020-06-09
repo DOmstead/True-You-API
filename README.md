@@ -26,3 +26,12 @@ https://github.com/DOmstead/True-You-API
 
 True You Backend/API:
 https://github.com/DOmstead/True-You-API
+
+
+This API establishes a publicly accessible endpoint capable of receiving GET,POST, PATCH, and DELETE requests utilizing cloud platform application Heroku.
+
+All requests to this api should be formatted in JSON and will require a valid security key. 
+
+Want access to this database of names or to help expand our collection?
+
+Go to https://domstead.github.io/Portfolio/ and reach out to me at any time!
