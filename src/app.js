@@ -20,6 +20,10 @@ app.use(morgan((NODE_ENV === 'production') ? 'tiny' : 'common', {
   skip: () => NODE_ENV === 'test'
 }));
 
+app.get('/', (req,res,next) => {
+  res.send('Welcome to True You');
+});
+
 app.use(cors());
 app.use(helmet());
 app.use(validateBearerToken);
