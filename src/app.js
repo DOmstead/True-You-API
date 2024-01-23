@@ -22,7 +22,7 @@ app.use(morgan((NODE_ENV === 'production') ? 'tiny' : 'common', {
 
 app.use(cors());
 app.use(helmet());
-app.use(validateBearerToken);
+//app.use(validateBearerToken);
 app.use(nameRecordsRouter);
 app.use(errorHandler);
 
